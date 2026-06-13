@@ -1,0 +1,41 @@
+# Data manipulation & analysis
+pandas==2.2.0
+numpy==1.26.4
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.2
+
+# Machine learning
+scikit-learn==1.4.0
+xgboost==2.0.3
+lightgbm==4.3.0
+imbalanced-learn==0.12.0
+
+# Explainability
+shap==0.44.0
+
+# Experiment tracking & model registry
+mlflow==2.16.0
+
+# API serving — version resolved by prefect
+fastapi
+uvicorn==0.27.0
+
+# Pipeline orchestration
+prefect==3.0.0
+
+# Model monitoring & drift detection — upgraded for pydantic v2 compatibility
+evidently==0.7.21
+
+# Data versioning
+dvc==3.38.1
+
+# Notebooks
+jupyterlab==4.0.11
+ipykernel==6.29.0
+
+# Utilities
+python-dotenv==1.0.0
+pytest==8.0.0
+httpx==0.26.0
